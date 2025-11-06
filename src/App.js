@@ -9,7 +9,7 @@ import {
 } from 'recharts';
 
 // API Base URL
-const API_URL = process.env.REACT_APP_API_URL || 'https://tracker-backend-j4e2.onrender.com//api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // API Helper Functions
 const api = {
