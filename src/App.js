@@ -9,7 +9,7 @@ import {
 } from 'recharts';
 
 // API Base URL
-const API_URL = process.env.NEXT_PUBLIC_API_URL;
+const API_URL = process.env.API_URL;
 
 // API Helper Functions
 const api = {
